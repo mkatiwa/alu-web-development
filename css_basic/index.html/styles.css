@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background-color: cadetblue;
+}
+main article {
+  flex: 2;
+  overflow-y: auto;
+}
+main aside {
+  flex: 1;
+  color: blue;
+}
+header {
+  border: 1px solid red;
+}
+
+.logo {
+  font-size: 2rem;
+}
